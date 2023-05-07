@@ -12,6 +12,12 @@
       <FullPath>AdventureWorksDW.ds</FullPath>
     </ProjectItem>
   </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>AdventureWorksDW.dsv</Name>
+      <FullPath>AdventureWorksDW.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
