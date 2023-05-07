@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "ADWTUT", "ADWTUT\ADWTUT.dwproj", "{1115C8C5-217F-44AF-B5FF-C72D8D9B1A72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1115C8C5-217F-44AF-B5FF-C72D8D9B1A72}.Development|Default.ActiveCfg = Development
+		{1115C8C5-217F-44AF-B5FF-C72D8D9B1A72}.Development|Default.Build.0 = Development
+		{1115C8C5-217F-44AF-B5FF-C72D8D9B1A72}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FED8746E-21A0-4169-8B2E-E7AF63AACB7F}
+	EndGlobalSection
+EndGlobal
