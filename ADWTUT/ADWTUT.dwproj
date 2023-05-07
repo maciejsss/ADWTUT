@@ -6,10 +6,30 @@
     <Name>ADWTUT.database</Name>
     <FullPath>ADWTUT.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Sales.cube</Name>
+      <FullPath>Sales.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Sales.partitions</Name>
+          <FullPath>Sales.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
   <Dimensions>
     <ProjectItem>
       <Name>Date.dim</Name>
       <FullPath>Date.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Customer.dim</Name>
+      <FullPath>Customer.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Product.dim</Name>
+      <FullPath>Product.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
