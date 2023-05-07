@@ -6,10 +6,31 @@
     <Name>ADWTUT.database</Name>
     <FullPath>ADWTUT.database</FullPath>
   </Database>
+  <DataSources>
+    <ProjectItem>
+      <Name>AdventureWorksDW.ds</Name>
+      <FullPath>AdventureWorksDW.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>AdventureWorksDW</Id>
+            <Name>AdventureWorksDW</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=MACIEJ\SQLDEV;Persist Security Info=True;Password=;User ID=;Initial Catalog=AdventureWorksDW2019</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>AdventureWorksDW</Id>
+            <Name>AdventureWorksDW</Name>
+            <Value xsi:type="xsd:int">1</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>
