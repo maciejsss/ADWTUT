@@ -6,6 +6,12 @@
     <Name>ADWTUT.database</Name>
     <FullPath>ADWTUT.database</FullPath>
   </Database>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Date.dim</Name>
+      <FullPath>Date.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
   <DataSources>
     <ProjectItem>
       <Name>AdventureWorksDW.ds</Name>
